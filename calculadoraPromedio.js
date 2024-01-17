@@ -3,6 +3,7 @@ alumno1="Arhon";
 
 console.log(alumno1)
 
+let alumno1=paseInt(prompt("Fvr ingre nombre alumno1"));
 let nota1=paseInt(prompt("Fvr ingrese nota1"));
 let nota2=paseInt(prompt("Fvr ingrese nota2"));
 let nota3=paseInt(prompt("Fvr ingrese nota3"));
