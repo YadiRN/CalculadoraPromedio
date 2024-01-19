@@ -37,9 +37,9 @@ console.log(promedio1);
 
 //**Analisis de aprobado o reprobado*/
 
-if (promedio1>=7) {console.log(" alumno1 !Felicitaciones! has aprobado con un promedio de (promedio1)")
+if (promedio1>=7) {console.log(" alumno1 !Felicitaciones! has aprobado con un promedio de"); console.log(promedio1)
     
-} else {console.log("alumno1, gracias por tu esfuerzo. Nos vemos pronto en clase. El promedio obtenido es (promedio1")
+} else {console.log("alumno1, gracias por tu esfuerzo. Nos vemos pronto en clase. El promedio obtenido es"); console.log(promedio1)
     
 }
 
