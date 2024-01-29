@@ -4,9 +4,9 @@ alumno1="Arhon";
 console.log(alumno1)
 
 let alumno1=paseInt(prompt("Fvr ingre nombre alumno1"));
-let nota1=paseInt(prompt("Fvr ingrese nota1"));
-let nota2=paseInt(prompt("Fvr ingrese nota2"));
-let nota3=paseInt(prompt("Fvr ingrese nota3"));
+let nota1=parseInt(prompt("Fvr ingrese nota1"));
+let nota2=parseInt(prompt("Fvr ingrese nota2"));
+let nota3=parseInt(prompt("Fvr ingrese nota3"));
 
 let n1=9;
 let n2=5;

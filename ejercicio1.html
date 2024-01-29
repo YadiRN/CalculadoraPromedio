@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <title>Fibonacci</title>
+</head>
+<body>
+    
+    <ul id="fib"></ul>
+</body>
+</html>
+
+
+<script>
+
+//0,1,1,2,...
+
+function numeroDeElemento(num) {
+    const fib=[0, 1];
+    for (let i = 2; i < num; i++){
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib;
+  
+}
+
+const fibSerie=numeroDeElemento(4);
+const ul = document.getElementById("fib");
+
+fibSerie.forEach(number =>{
+    const li = document.createElement("li");
+    li.innerHTML = number;
+    ul.append(li);
+});
+
+console.log(fibSerie);
+
+</script>
