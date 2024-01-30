@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <title>Array</title>
+
+<script>
+
+function ordenarTiposDeDatos(arreglo) {
+    const resultado = {
+    numeros: []
+    };
+
+function ordenarElementos(inicio) {
+    if(typeof inicio==="number") {
+        resultado.numeros.push(inicio);
+    }
+}
+
+arreglo.forEach(ordenarElementos);
+
+return resultado;
+}
+
+const inicio=["unacadena",3,9,1,10,500,2,20,true];
+const resultadoOrdenado=ordenarTiposDeDatos(inicio);
+
+console.log(resultadoOrdenado);
+    
+</script>
